@@ -9,7 +9,7 @@ body {
 .wrapper {
     display: flex;
     flex-direction: column;
-    height: 150vh;
+    height: 150vh; /* 150 */
     margin: 0;
     padding: 0;
 }
@@ -33,6 +33,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 25px;
+    gap: 40px;
 }
 
 .quote {
@@ -43,8 +44,11 @@ body {
     align-items: center;
 }
 
-.sign-up {
+.action {
     flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer {
@@ -66,10 +70,6 @@ body {
     color: #F9FAF8;
 }
 
-
-.header-left-side {
-
-}
 .header-right-side {
     display: flex;
     gap: 18px;
@@ -176,6 +176,32 @@ button {
 .quote-name {
     margin: 0;
     text-align: right;
-    font-size: px;
+    font-size: 20px;
     font-weight: 800;
+}
+
+.action-container {
+    width: 1000px;
+    height: 150px;
+    border-radius: 15px;
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 100px;
+}
+
+.action-text h1 {
+    color: #F9FAF8;
+    font-size: 20px;
+    margin: 0;
+}
+.action-text p {
+    color: #E5E7EB;
+    font-size:16px;
+    margin: 0;
+}
+
+.action-button {
+    border: 3px solid white;
 }
