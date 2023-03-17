@@ -9,7 +9,7 @@ body {
 .wrapper {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 150vh;
     margin: 0;
     padding: 0;
 }
@@ -20,7 +20,7 @@ body {
 }
 
 .header {
-    flex: 6;
+    flex: 3;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -28,7 +28,7 @@ body {
 }
 
 .content {
-    flex: 5;
+    flex: 2.7;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,7 +37,10 @@ body {
 
 .quote {
     background-color: #E5E7EB;
-    flex: 2.5;
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .sign-up {
@@ -83,7 +86,7 @@ a {
 .title-container {
     display: flex;
     justify-content: center;
-    gap: 2em;
+    gap: 150px;
 
 }
 
@@ -102,7 +105,7 @@ a {
 .img-placeholder {
     display: flex;
     color: #E5E7EB;
-    background-color: gray;
+    background-color: silver;
     width: 100%;
     height: 100%;
     justify-content: center;
@@ -155,5 +158,24 @@ button {
 .box-subtext {
     width: 150px;
     text-align: center;
-    margin-top: 0
+    margin-top: 0;
+}
+
+.quote-container {
+    max-width: 800px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    margin: 0;
+}
+
+.quote-name {
+    margin: 0;
+    text-align: right;
+    font-size: px;
+    font-weight: 800;
 }
